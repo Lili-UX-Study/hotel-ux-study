@@ -329,8 +329,8 @@
   .sec-title{font-family:var(--serif);font-size:1.35rem;margin:30px 0 6px;padding-bottom:8px;border-bottom:1px solid var(--line)}
   .sec-title:first-child{margin-top:6px}
   .q{margin:22px 0}
-  .q .lab{display:block;font-weight:400;margin-bottom:12px;font-size:1rem;line-height:1.4;color:#c0f3ff}
-  .q .lab .n{color:#c0f3ff;margin-right:6px}
+  .q .lab{display:block;font-weight:400;margin-bottom:12px;font-size:1rem;line-height:1.4;color:#BCE8FF}
+  .q .lab .n{color:#BCE8FF;margin-right:6px}
   .q .req{color:rgba(255,255,255,.8)}
   .q .hint{font-size:.82rem;color:var(--ink-dim);font-weight:400;margin-top:2px}
   input[type=text],textarea{width:100%;font-family:inherit;font-size:1rem;color:var(--ink);background:var(--panel-2);
@@ -1033,26 +1033,27 @@ const CMP = [
   ]},
   {sec: FA?"بخش ۲ — پاسخ احساسی":"Section 2 — Emotional Response"},
   {key:"engaging",  h:"H1", en:"The images felt emotionally engaging. (The images made me feel something rather than feeling neutral.)", fa:"تصاویر از نظر احساسی جذاب بودند. (تصاویر کاری کردند که چیزی حس کنم، نه اینکه بی‌تفاوت بمانم.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
-  {key:"warm",      h:"H1", en:"The images felt warm and inviting.", fa:"تصاویر گرم و دعوت‌کننده بودند.", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
+  {key:"warm",      h:"H1", en:"The images felt warm and inviting. (The images gave a pleasant feeling and made the atmosphere seem cosy and welcoming.)", fa:"تصاویر گرم و دعوت‌کننده بودند. (تصاویر حس خوبی می‌دادند و باعث می‌شدند فضا صمیمی و خوشایند به نظر برسد.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
   {key:"connection",h:"H1", en:"I felt emotionally connected to this hotel. (I felt personally drawn to or interested in this hotel.)", fa:"با این هتل احساس ارتباط عاطفی کردم. (به‌طور شخصی جذب این هتل شدم یا به آن علاقه‌مند شدم.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
   {key:"imagine",   h:"H1", en:"I could imagine myself staying here.", fa:"می‌توانستم خودم را در حال اقامت در اینجا تصور کنم.", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
   {key:"desire",    h:"H1", en:"The images created a sense of desire to visit.", fa:"تصاویر حس اشتیاق برای رفتن به آنجا را ایجاد کردند.", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
-  {key:"excited",   h:"H1", en:"The images made me feel excited.", fa:"تصاویر در من حس هیجان ایجاد کردند.", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
   {sec: FA?"بخش ۳ — نمایش تصویری":"Section 3 — Visual Presentation"},
-  {key:"atmosphere",  h:"H5", en:"The images created a strong atmosphere. (The images gave a clear mood or feeling.)", fa:"تصاویر فضای قوی‌ای ایجاد کردند. (تصاویر حال‌وهوا یا حس روشنی منتقل کردند.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
-  {key:"immersive",   h:"H5", en:"The presentation felt immersive. (The images made me feel involved in the experience, as if I were there.)", fa:"نمایش غوطه‌ورکننده بود. (تصاویر کاری کردند که حس کنم بخشی از تجربه‌ام، انگار آنجا بودم.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
+  {key:"atmosphere",  h:"H5", en:"The images created a clear atmosphere. (The images clearly conveyed the overall mood and feeling of this version.)", fa:"تصاویر حال‌وهوای مشخص و قابل‌درکی داشتند. (با دیدن تصاویر، حس و فضای کلی آن نسخه به‌خوبی منتقل می‌شد.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
+  {key:"immersive",   h:"H5", en:"Looking at the images felt immersive. (The images made me feel involved in the experience, as if I were there.)", fa:"تماشای تصاویر مرا در فضا غرق می‌کرد. (طوری بود که انگار خودم آنجا حضور داشتم و بخشی از آن تجربه بودم.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
   {key:"storytelling",h:"H5", en:"The images told a story rather than only providing information. (The images felt meaningful and connected, not just descriptive.)", fa:"تصاویر بیشتر یک داستان روایت می‌کردند تا صرفاً اطلاعات. (تصاویر معنادار و مرتبط بودند، نه فقط توصیفی.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
   {key:"memorable",   h:"H5", en:"The images were visually memorable. (The images stayed in my mind.)", fa:"تصاویر از نظر بصری به‌یادماندنی بودند. (تصاویر در ذهنم ماندگار شدند.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
   {sec: FA?"بخش ۴ — اعتماد و اعتبار":"Section 4 — Trust & Credibility"},
-  {key:"trust",     h:"H3", en:"The hotel appeared trustworthy. (The hotel seemed reliable and dependable.)", fa:"هتل قابل‌اعتماد به نظر می‌رسید. (هتل مطمئن و قابل‌اتکا به نظر می‌رسید.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
+  {key:"trust",     h:"H3", en:"The hotel appeared trustworthy. (I felt the real hotel would match what the images show and meet my expectations.)", fa:"هتل قابل‌اعتماد به نظر می‌رسید. (این حس را داشتم که هتل واقعی همان چیزی است که تصاویر نشان می‌دهند و انتظارم را برآورده می‌کند.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
   {key:"realistic", h:"H3", en:"The images looked realistic.", fa:"تصاویر واقعی به نظر می‌رسیدند.", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
-  {key:"confident", h:"H3", en:"The presentation increased my confidence in the hotel. (The images made me feel more certain about the quality of the hotel.)", fa:"نمایش، اطمینان من به هتل را افزایش داد. (تصاویر کاری کردند که نسبت به کیفیت هتل مطمئن‌تر باشم.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
+  {key:"confident", h:"H3", en:"Seeing these images made me feel more confident about the hotel. (After viewing the images, I felt more certain about the hotel's quality.)", fa:"دیدن این تصاویر باعث شد نسبت به هتل اطمینان بیشتری پیدا کنم. (بعد از دیدن تصاویر، نسبت به کیفیت هتل احساس اطمینان بیشتری داشتم.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
   {sec: FA?"بخش ۵ — تصمیم":"Section 5 — Decision"},
   {key:"book",   h:"H2", en:"The images increased my intention to book this hotel.", fa:"تصاویر تمایل من برای رزرو این هتل را افزایش دادند.", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
   {key:"easier", h:"H2", en:"The visual presentation made the booking decision easier.", fa:"نمایش تصویری، تصمیم رزرو را آسان‌تر کرد.", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
   {sec: FA?"بخش ۶ — جمع‌بندی احساسی":"Section 6 — Overall Emotionality"},
   {key:"emotionality", h:"H5", en:"Overall, I found these images emotionally impactful. (The images had a noticeable emotional effect on me.)", fa:"در مجموع، این تصاویر را از نظر احساسی تأثیرگذار یافتم. (تصاویر اثر احساسی محسوسی بر من داشتند.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
-  {sec: FA?"بخش ۷ — بازتاب آزاد":"Section 7 — Open Reflection"},
+  {sec: FA?"بخش ۷ — محتوای تصاویر":"Section 7 — Image Content"},
+  {key:"people_influence", type:"likert_once", en:"The presence of people in some of the images influenced my preference between the two versions. (Seeing people in the images affected which version I preferred.)", fa:"حضور افراد در برخی از تصاویر بر ترجیح من بین دو نسخه تأثیر داشت. (دیدن افراد در تصاویر روی اینکه کدام نسخه را ترجیح دادم اثر گذاشت.)", lo:FA?"کاملاً مخالفم":"Strongly disagree", hi:FA?"کاملاً موافقم":"Strongly agree"},
+  {sec: FA?"بخش ۸ — بازتاب آزاد":"Section 8 — Open Reflection"},
   {key:"open_reflection", type:"long", req:false, en:"Please share any additional comments about the two versions and what influenced your preference.", fa:"لطفاً هر نظر دیگری دربارهٔ دو نسخه و آنچه بر ترجیح شما تأثیر گذاشت بنویسید."}
 
 ];
@@ -1080,6 +1081,11 @@ function buildSurvey(){
         return `<button type="button" class="opt-btn" data-q="${q.key}" data-val="${o.v}">${olabel}</button>`;
       }).join("");
       html+=`<div class="opt-list">${opts}</div>`;
+    } else if(q.type==="likert_once"){
+      const anchors=`<div class="lk-anchors"><span>1 · ${q.lo}</span><span>5 · ${q.hi}</span></div>`;
+      const side = FA?"پاسخ شما":"Your answer";
+      const dots=SCALE.map(n=>`<button type="button" class="lk-dot" data-q="${q.key}" data-once="1" data-val="${n}">${n}</button>`).join("");
+      html+=anchors+`<div class="lk-row"><span class="lk-side">${side}</span><div class="lk-dots">${dots}</div></div>`;
     } else {
       const anchors=`<div class="lk-anchors"><span>1 · ${q.lo}</span><span>5 · ${q.hi}</span></div>`;
       const mkRow=(rowLabel,ver)=>{
@@ -1093,9 +1099,15 @@ function buildSurvey(){
   // Likert dot selection: store per version key_first / key_second using TRUE version
   f.querySelectorAll(".lk-dot").forEach(d=>d.addEventListener("click",()=>{
     const k=d.dataset.q, ver=d.dataset.ver, val=d.dataset.val;
-    f.querySelectorAll(`.lk-dot[data-q="${k}"][data-ver="${ver}"]`).forEach(x=>x.classList.remove("sel"));
-    d.classList.add("sel");
-    cmpAnswers[k+"_"+ver]=val;          // ver is "A" or "B" (true version)
+    if(d.dataset.once){
+      f.querySelectorAll(`.lk-dot[data-q="${k}"]`).forEach(x=>x.classList.remove("sel"));
+      d.classList.add("sel");
+      cmpAnswers[k]=val;                // single overall rating (no version split)
+    } else {
+      f.querySelectorAll(`.lk-dot[data-q="${k}"][data-ver="${ver}"]`).forEach(x=>x.classList.remove("sel"));
+      d.classList.add("sel");
+      cmpAnswers[k+"_"+ver]=val;        // ver is "A" or "B" (true version)
+    }
     const w=$(`.q[data-key="${k}"]`); if(w)w.classList.remove("invalid");
   }));
   f.querySelectorAll("textarea[data-q]").forEach(t=>t.addEventListener("input",()=>{ cmpAnswers[t.dataset.q]=t.value.trim(); }));
@@ -1115,7 +1127,7 @@ $("#submitBtn").addEventListener("click",submitAll);
 function validate(){ let firstBad=null;
   const firstV=ORDER[0], secondV=ORDER[1];
   CMP.forEach(q=>{ if(q.sec||q.type==="long"||q.req===false)return;
-    if(q.type==="single"){
+    if(q.type==="single"||q.type==="likert_once"){
       if(!cmpAnswers[q.key]){ const w=$(`.q[data-key="${q.key}"]`); if(w){ w.classList.add("invalid"); if(!firstBad)firstBad=w; } }
       return;
     }
@@ -1147,7 +1159,7 @@ function submitAll(){
   };
   CMP.forEach(q=>{ if(q.sec)return;
     if(q.type==="long"){ payload[q.key]=(cmpAnswers[q.key]==null?"":cmpAnswers[q.key]); }
-    else if(q.type==="single"){ payload[q.key]=(cmpAnswers[q.key]==null?"":cmpAnswers[q.key]); }
+    else if(q.type==="single"||q.type==="likert_once"){ payload[q.key]=(cmpAnswers[q.key]==null?"":cmpAnswers[q.key]); }
     else { payload[q.key+"_A"]=(cmpAnswers[q.key+"_A"]==null?"":cmpAnswers[q.key+"_A"]);
            payload[q.key+"_B"]=(cmpAnswers[q.key+"_B"]==null?"":cmpAnswers[q.key+"_B"]); } });
 
