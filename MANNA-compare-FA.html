@@ -698,7 +698,7 @@ let PARTICIPANT_ID = "";
 const SESSION_ID = "s-" + Date.now().toString(36) + "-" + Math.random().toString(36).slice(2,8);
 
 /* ---- counterbalanced order: random AB or BA ---- */
-const ORDER = Math.random() < 0.5 ? "AB" : "BA";   // which version is shown FIRST
+const ORDER = "AB";   // FORCED: Version A shown FIRST (counterbalance rebalancing)
 const FIRST_SEEN = ORDER[0];                        // "A" or "B"
 
 const GAL_IDS = ["g01","g02","g03","g04","g05","g06","g07","g08","g09","g10","g11","g12","g13","g14"];
